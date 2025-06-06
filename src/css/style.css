@@ -10,3 +10,25 @@
     display: inline;
     margin-right: 10px;
 }
+
+/* Menu hambúrguer */
+.hamburguer-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hamburguer-icon {
+        display: block;
+    }
+
+    #menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    #menu.show {
+        display: block;
+    }
+}
