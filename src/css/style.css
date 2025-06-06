@@ -1,0 +1,12 @@
+/* styles.css */
+
+/* Estilo para o menu */
+#menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 10px;
+}
