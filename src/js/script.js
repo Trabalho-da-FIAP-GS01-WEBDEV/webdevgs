@@ -15,3 +15,14 @@ function showSlide() {
 }
 
 setInterval(showSlide, 5000); // troca a imagem a cada 5 seguhndos
+
+// Validação do formulário
+document.getElementById('formulario')?.addEventListener('submit', function(event) {
+    const nome = document.getElementById('nome')?.value;
+    const email = document.getElementById('email')?.value;
+
+    if (!nome || !email) {
+        alert("Todos os campos são obrigatórios.");
+        event.preventDefault();
+    }
+});
