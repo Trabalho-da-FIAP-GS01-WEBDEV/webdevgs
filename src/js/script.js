@@ -6,7 +6,7 @@ function toggleMenu() {
 
 // SlideShow
 let currentSlide = 0;
-const slides = ['images/img1.jpg', 'images/img2.jpg', 'images/img3.jpg'];
+const slides = ['../src/images/img1.jpg', '../src/images/img2.jpg', '../src/images/img3.jpg'];
 
 function showSlide() {
     const slide = document.getElementById('slide-show');
