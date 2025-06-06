@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solução contra Enchentes</title>
     <link rel="stylesheet" href="src/css/style.css">
-    <title>Document</title>
 </head>
 <body>
 
-
-    <!-- Cabeçalho com menu -->
+    <!-- Cabeçalho com título e menu -->
     <header>
+        <h1>Solução Tecnológica contra Enchentes</h1>
         <nav>
             <ul id="menu">
                 <li><a href="#problema">O Problema</a></li>
@@ -19,6 +19,7 @@
                 <li><a href="#publico">Público-Alvo</a></li>
                 <li><a href="#beneficios">Benefícios</a></li>
                 <li><a href="#como">Como Funciona</a></li>
+                <li><a href="#quiz">Quiz</a></li>  <!-- Link para o Quiz -->
             </ul>
         </nav>
         <div id="menu-hamburguer" class="hamburguer-icon" onclick="toggleMenu()">&#9776;</div>
@@ -27,47 +28,105 @@
     <!-- Seções da Landing Page -->
     <section id="problema">
         <h1>O Problema das Enchentes</h1>
-        <p>Texto sobre as enchentes...</p>
+        <p>As enchentes são um problema recorrente no Brasil, causando destruição e perda de vidas todos os anos. A falta de políticas públicas eficazes de prevenção e gestão contribui para o agravamento dessa tragédia.</p>
     </section>
 
     <section id="tecnologias">
         <h1>Tecnologias Utilizadas</h1>
-        <p>Texto sobre as tecnologias...</p>
+        <p>Utilizamos tecnologias avançadas como sensores IoT, inteligência artificial e monitoramento via satélite para antecipar e mitigar os impactos das enchentes.</p>
     </section>
 
     <section id="objetivos">
         <h1>Objetivos da Solução</h1>
-        <p>Texto sobre os objetivos...</p>
+        <p>Nosso objetivo é reduzir os danos das enchentes, melhorar o tempo de resposta da Defesa Civil e salvar vidas por meio de sistemas tecnológicos eficazes.</p>
     </section>
 
     <section id="publico">
         <h1>Público-Alvo</h1>
-        <p>Texto sobre o público-alvo...</p>
+        <p>Nosso foco está em comunidades de áreas de risco, principalmente em cidades propensas a inundações, onde a tecnologia pode fazer a diferença.</p>
     </section>
 
     <section id="beneficios">
         <h1>Benefícios da Solução</h1>
-        <p>Texto sobre os benefícios...</p>
+        <p>A solução oferece benefícios diretos como a redução de perdas humanas e materiais, além de promover a melhoria na infraestrutura urbana e nos sistemas de alerta.</p>
     </section>
 
     <section id="como">
         <h1>Como Funciona</h1>
-        <p>Texto sobre o funcionamento...</p>
+        <p>Nosso sistema coleta dados em tempo real através de sensores, e utiliza algoritmos de IA para prever enchentes e alertar as autoridades e a população.</p>
     </section>
 
     <!-- SlideShow -->
     <section id="slide-show-container">
-        <img id="slide-show" src="src/images/img1.jpg" alt="Slide Show" />
+        <img id="slide-show" src="src/images/img1.jpg" alt="Slide Show">
     </section>
+
+<!-- Quiz Interativo -->
+<section id="quiz">
+    <h2>Quiz sobre Enchentes</h2>
+    <form id="quiz-form">
+        <h3>1. O que causa enchentes?</h3>
+        <label><input type="radio" name="q1" value="a"> Choque térmico</label><br>
+        <label><input type="radio" name="q1" value="b"> Acúmulo de água da chuva</label><br>
+        <label><input type="radio" name="q1" value="c"> Atividade sísmica</label><br>
+
+        <h3>2. Qual é a principal causa das enchentes nas grandes cidades?</h3>
+        <label><input type="radio" name="q2" value="a"> Falta de drenagem urbana</label><br>
+        <label><input type="radio" name="q2" value="b"> Tempestades intensas</label><br>
+        <label><input type="radio" name="q2" value="c"> Derretimento de geleiras</label><br>
+
+        <h3>3. O que é necessário para prever com precisão a ocorrência de uma enchente?</h3>
+        <label><input type="radio" name="q3" value="a"> Sensores de temperatura</label><br>
+        <label><input type="radio" name="q3" value="b"> Monitoramento dos níveis dos rios e previsão de chuvas</label><br>
+        <label><input type="radio" name="q3" value="c"> Testes de solo em áreas de risco</label><br>
+
+        <h3>4. Quais regiões do Brasil são mais afetadas por enchentes?</h3>
+        <label><input type="radio" name="q4" value="a"> Região Norte e Nordeste</label><br>
+        <label><input type="radio" name="q4" value="b"> Região Sudeste e Sul</label><br>
+        <label><input type="radio" name="q4" value="c"> Região Centro-Oeste</label><br>
+
+        <h3>5. Qual tecnologia pode ser usada para alertar a população sobre enchentes?</h3>
+        <label><input type="radio" name="q5" value="a"> Sistema de alertas via SMS e aplicativos móveis</label><br>
+        <label><input type="radio" name="q5" value="b"> Sistema de monitoramento por satélites</label><br>
+        <label><input type="radio" name="q5" value="c"> Todos os itens acima</label><br>
+
+        <h3>6. O que pode aumentar a frequência das enchentes nas cidades?</h3>
+        <label><input type="radio" name="q6" value="a"> Mudanças climáticas e impermeabilização do solo</label><br>
+        <label><input type="radio" name="q6" value="b"> Aumento da densidade populacional</label><br>
+        <label><input type="radio" name="q6" value="c"> Nenhuma das alternativas</label><br>
+
+        <h3>7. Qual é o principal problema das áreas urbanas em relação às enchentes?</h3>
+        <label><input type="radio" name="q7" value="a"> Falta de drenagem adequada</label><br>
+        <label><input type="radio" name="q7" value="b"> O aumento de áreas verdes</label><br>
+        <label><input type="radio" name="q7" value="c"> O crescimento de novas infraestruturas</label><br>
+
+        <h3>8. Como o monitoramento em tempo real ajuda a reduzir os danos das enchentes?</h3>
+        <label><input type="radio" name="q8" value="a"> Permite evacuação antecipada das áreas de risco</label><br>
+        <label><input type="radio" name="q8" value="b"> Ajuda a prever os danos econômicos</label><br>
+        <label><input type="radio" name="q8" value="c"> Não tem impacto direto</label><br>
+
+        <h3>9. O que é o CEMADEN?</h3>
+        <label><input type="radio" name="q9" value="a"> Centro Nacional de Monitoramento e Alertas de Desastres Naturais</label><br>
+        <label><input type="radio" name="q9" value="b"> Centro Nacional de Estudos Climáticos</label><br>
+        <label><input type="radio" name="q9" value="c"> Centro de Estudos sobre Enchentes</label><br>
+
+        <h3>10. Qual a principal ação para evitar tragédias causadas por enchentes?</h3>
+        <label><input type="radio" name="q10" value="a"> Construção de muros e barragens</label><br>
+        <label><input type="radio" name="q10" value="b"> Prevenção através de planejamento urbano e monitoramento</label><br>
+        <label><input type="radio" name="q10" value="c"> Evacuação imediata da população</label><br>
+
+        <button type="submit">Enviar Respostas</button>
+    </form>
+
+    <div id="resultado"></div>
+</section>
+
 
     <!-- Rodapé -->
     <footer>
         <p>Desenvolvido por WASCO SOLUTIONS</p>
     </footer>
 
-
-
     <script src="src/js/script.js"></script>
-    
 </body>
 </html>
