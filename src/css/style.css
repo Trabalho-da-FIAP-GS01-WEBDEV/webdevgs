@@ -32,3 +32,26 @@
         display: block;
     }
 }
+
+
+/* SlideShow */
+#slide-show-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#slide-show {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* Estilos do conteúdo */
+section {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
